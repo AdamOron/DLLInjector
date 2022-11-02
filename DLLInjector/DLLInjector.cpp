@@ -170,7 +170,7 @@ void InjectLibrary(const char *procName, const char *libraryPath)
     /* Close the process to the handle */
     CloseHandle(hProc);
 
-    printf("Injected successfully!");
+    printf("Injected successfully!\n");
 }
 
 void InjectWithInput()
